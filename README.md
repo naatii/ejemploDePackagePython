@@ -1,6 +1,16 @@
 # Ejemplo de package en python
 ###### **Por ➡️ Natalia Cortés**
 
+--- 
+⚠️**REQUERIMINTO PARA EL PROGRAMA TENER INSTALADO PYTEST**⚠️
+    
+> Esto se hace mediante línea de commandos con la libreria de pip
+```bash
+pip install pytest
+```
+> Atención ⚠️ asegurate de que el path de windows esté correcto si no lo está pide ayuda.
+--- 
+
 En este programita se ha creado unos package en python para una serie de funciones creadas en [Logica](./Logica/suma.py) para poder ser testeadas en [Tests](./Test_Logica/test_suma.py) 
 
 > La importación del módulo a testear se hace en [Tests](./Test_Logica/test_suma.py) de la siguiente forma: 
